@@ -34,7 +34,7 @@ const experiences = [
 function TimelineItem({ role, org, date, desc, delay }: {
   role: string; org: string; date: string; desc: string; delay: number;
 }) {
-  const { ref, visible } = useFadeUp(delay);
+  const { ref, visible } = useFadeUp<HTMLLIElement>(delay);
   return (
     <li ref={ref} className={`${styles.item} ${shared.fadeUp} ${visible ? shared.visible : ""}`}>
       <div className={styles.dot} />
