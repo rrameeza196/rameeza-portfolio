@@ -2,8 +2,8 @@
 
 import { useEffect, useRef, useState } from "react";
 
-export function useFadeUp(delay = 0) {
-  const ref = useRef<HTMLDivElement>(null);
+export function useFadeUp<T extends HTMLElement = HTMLDivElement>(delay = 0) {
+  const ref = useRef<T>(null);
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
