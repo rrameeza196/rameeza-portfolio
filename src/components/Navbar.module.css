@@ -79,6 +79,22 @@
 
 .cta:hover { opacity: 0.7; }
 
+.actionsGroup {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  flex-shrink: 0;
+}
+
+.githubLink {
+  display: flex;
+  align-items: center;
+  color: var(--text-muted);
+  transition: color 0.2s;
+}
+
+.githubLink:hover { color: var(--text); }
+
 .toggle {
   display: none;
   background: none;

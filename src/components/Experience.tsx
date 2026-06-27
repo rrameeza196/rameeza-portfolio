@@ -6,16 +6,10 @@ import shared from "./shared.module.css";
 
 const experiences = [
   {
-    role: "Teaching Assistant – AI & ML Courses",
+    role: "Teaching Assistant – AI & Machine Learning",
     org: "ITU Lahore",
-    date: "Jan 2026 – Present",
-    desc: "Supported ML lab sessions, assisted students with coding and debugging, dataset preparation, and model evaluations.",
-  },
-  {
-    role: "Teaching Assistant – AI Course",
-    org: "ITU Lahore",
-    date: "Sep 2025 – Dec 2025",
-    desc: "Mentored students through AI coursework, lab exercises, and project reviews.",
+    date: "Sep 2025 – Present",
+    desc: "Lead ML lab sessions guiding students through model training, dataset preparation, and debugging of deep learning pipelines; support AI course delivery including assignments, evaluation workflows, and student queries.",
   },
   {
     role: "Full-Stack & Network Support Intern",
