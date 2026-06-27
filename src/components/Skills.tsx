@@ -7,23 +7,31 @@ import shared from "./shared.module.css";
 const skillGroups = [
   {
     title: "AI & ML",
-    tags: ["Deep Learning", "CNN", "TensorFlow", "RNN", "Computer Vision"],
+    tags: ["Deep Learning", "CNN", "TensorFlow", "OpenCV", "Computer Vision", "YOLOv8", "YOLOv11", "MobileNet", "Scikit-learn", "MediaPipe"],
+  },
+  {
+    title: "AI-Assisted Development",
+    tags: ["Claude", "ChatGPT", "Gemini API", "Cursor"],
   },
   {
     title: "Programming",
-    tags: ["Python", "C++"],
+    tags: ["Python", "JavaScript", "TypeScript", "C++", "C#", "SQL"],
   },
   {
     title: "Web Development",
-    tags: ["React.js", "Node.js", "TypeScript", "MySQL", "Bootstrap", "WordPress"],
+    tags: ["React.js", "Next.js", "Node.js", "REST APIs", "Bootstrap", "WordPress"],
+  },
+  {
+    title: "Databases",
+    tags: ["MySQL", "PostgreSQL", "MongoDB"],
   },
   {
     title: "Cloud & DevOps",
-    tags: ["AWS", "Docker", "Kubernetes", "Tableau"],
+    tags: ["AWS", "Docker", "Kubernetes", "Vercel", "Git", "GitHub", "CI/CD", "Tableau"],
   },
   {
     title: "Hardware",
-    tags: ["STM32", "Arduino", "Raspberry Pi", "Orange Pi"],
+    tags: ["STM32", "Arduino", "Raspberry Pi 4", "Orange Pi 3 LTS"],
   },
 ];
 

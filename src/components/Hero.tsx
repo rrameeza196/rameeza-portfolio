@@ -25,9 +25,11 @@ export default function Hero() {
         <p className={styles.bio}>
           Computer Engineering student at ITU Lahore with hands-on experience
           in full-stack development and AI/ML engineering. I build
-          production-ready web apps and train computer vision models —
-          currently benchmarking YOLOv8, YOLOv11, and MobileNet on edge
-          devices for my final year project.
+          production-ready web apps, train computer vision models, and
+          explore gesture-based human-computer interaction — currently
+          benchmarking YOLOv8, YOLOv11, and MobileNet on edge devices for my
+          final year project, while serving as a Teaching Assistant for AI
+          and ML courses.
         </p>
 
         <div className={styles.actions}>
